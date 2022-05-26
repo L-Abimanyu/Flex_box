@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar
+{
+    height: 100px;
+    background-color:#DCDCDC;
+
+   
+}
+
+
+.bar nav ul
+{
+    display:flex;
+    justify-content:flex-end;
+    padding: 30px;
+    font-size :25px;
+    text-transform: uppercase;
+    list-style-type: none;
+   
+
+}
+li{
+    padding-left: 20px;
+}
+
+
+.bar nav ul li:hover{
+    color: aliceblue;
+}
+
+.title{
+
+
+    background-image:url(/images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:fit-content;
+    font-family: 'Blaka Hollow', cursive;
+    
+}
+
+
+.title h1{
+    text-align: center;
+    padding: 100px;
+    font-size: 55px;
+    color: aliceblue;
+    
+}
+
+
+.title p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+
+
+
+}
+.prod{
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.list{
+    font-size: 30px;
+    list-style-type: disc;
+    padding-left:40px;
+    height:fix-content;
+    font-family: 'Prompt', sans-serif
+
+}
+
+.list  ul li:hover{
+ color: #4B0082;
+}
+
+.footer{
+   background-color: darkolivegreen;
+   height: fit-content;
+   text-align: center;
+   font-size: 30px;
+
+}
+
+
+
+
+
